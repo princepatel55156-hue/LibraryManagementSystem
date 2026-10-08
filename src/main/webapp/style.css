@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 40px auto;
+    background: white;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+}
+
+h1 {
+    color: #1f4e79;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #444;
+    text-align: center;
+}
+
+.nav {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 8px;
+    text-decoration: none;
+    color: white;
+    background-color: #1f4e79;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background-color: #163a5c;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+}
+
+th {
+    background-color: #1f4e79;
+    color: white;
+    padding: 14px;
+}
+
+td {
+    padding: 13px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f7f9fb;
+}
+
+.edit {
+    color: white;
+    background-color: #28a745;
+    padding: 7px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.delete {
+    color: white;
+    background-color: #dc3545;
+    padding: 7px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.edit:hover {
+    background-color: #218838;
+}
+
+.delete:hover {
+    background-color: #c82333;
+}
+
+form {
+    width: 60%;
+    max-width: 600px;
+    margin: 25px auto;
+}
+
+label {
+    display: block;
+    margin-top: 18px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 7px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+input:focus {
+    border-color: #1f4e79;
+    outline: none;
+}
+
+button {
+    display: block;
+    margin: 25px auto 10px;
+    padding: 12px 25px;
+    background-color: #1f4e79;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #163a5c;
+}

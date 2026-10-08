@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Library Management",
+            "type": "process",
+            "command": "${env:USERPROFILE}\\Downloads\\apache-tomcat-11.0.22\\apache-tomcat-11.0.22\\bin\\catalina.bat",
+            "args": [
+                "run"
+            ],
+            "options": {
+                "env": {
+                    "JAVA_HOME": "C:\\Program Files\\Java\\jdk-24",
+                    "CATALINA_HOME": "${env:USERPROFILE}\\Downloads\\apache-tomcat-11.0.22\\apache-tomcat-11.0.22"
+                }
+            },
+            "problemMatcher": []
+        }
+    ]
+}
